@@ -1,4 +1,4 @@
-let canvas = document.getElementById("juego");
+let canvas = document.getElementById("areaJuego");
 let ctx = canvas.getContext("2d");
 
 const VELOCIDAD = 15;
@@ -8,7 +8,7 @@ let gatoY = 0;
 const ANCHOGATO = 50;
 const ALTURAGATO = 50;
  
-// Raton
+// Comida
 let comidaX = 50;
 let comidaY = 50;
 const ANCHOCOMIDA = 30;

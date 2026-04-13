@@ -42,7 +42,6 @@ function iniciarJuego() {
     
 }
 
-
 function mover(direccion) {
     if (direccion === "arriba") gatoY -= VELOCIDAD;
     if (direccion === "abajo") gatoY += VELOCIDAD;
@@ -67,6 +66,7 @@ function moverIzquierda (){
     limpiarCanva();
     graficarGato ();
     graficarComida();
+    detectarColision();
     }
 }
 
@@ -77,6 +77,7 @@ function moverDerecha (){
     limpiarCanva();
     graficarGato ();
     graficarComida();
+    detectarColision();
     }
 }
 
@@ -87,6 +88,7 @@ function moverArriba (){
     limpiarCanva();
     graficarGato ();
     graficarComida();
+    detectarColision();
     }
 }
 
@@ -97,6 +99,7 @@ function moverAbajo (){
     limpiarCanva();
     graficarGato ();
     graficarComida();
+    detectarColision();
     }
 }
 
@@ -104,3 +107,14 @@ document.getElementById("btnArriba").onclick = () => moverArriba();
 document.getElementById("btnAbajo").onclick = () => moverAbajo();
 document.getElementById("btnIzquierda").onclick = () => moverIzquierda();
 document.getElementById("btnDerecha").onclick = () => moverDerecha();
+
+//Parte 4 Comer
+
+function detectarColision (){
+    if(gatoX < comidaX + ANCHOCOMIDA &&
+        gatoX + ANCHOGATO > comidaX &&
+        gatoY < comidaY + ALTURACOMIDA &&
+        gatoY + ALTURAGATO > comidaY){
+        alert ("El gato comio la comida");
+    }
+}

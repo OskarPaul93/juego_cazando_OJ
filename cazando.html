@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html>
- 
+
 <head>
   <title>Juego Cazando</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="cazando.css">
   <script src="utils.js"></script>
 </head>
- 
+
 <body onload="iniciarJuego();">
- 
-  <h1>Juego Cazando</h1>
+
+  <h1>🐱 Juego Cazando 🧀</h1>
   <p>Autor: Jami Jami Oscar</p>
- 
-  <canvas id="areaJuego" width="500" height="500"></canvas>
-  <div class="controles">
-    <button id="btnArriba">⬆</button>
-    <br>
-    <button id="btnIzquierda">⬅</button>
-    <button id="btnAbajo">⬇</button>
-    <button id="btnDerecha">➡</button>
-  </div>
- 
-  <div>
-    <button onclick="reiniciar ()">Reiniciar</button>
-  </div>
- 
+
+  <!-- PANEL -->
   <div class="panel">
-    <span>Puntos: <span id="txtPuntaje">0</span></span>
-    <span>Tiempo: <span id="txtTiempo">10</span></span>
+
+    <div class="card puntos">
+      <span class="icono">🏆</span>
+      <div>
+        <p>PUNTOS</p>
+        <span id="txtPuntaje">0</span>
+      </div>
+    </div>
+
+    <div class="card tiempo">
+      <span class="icono">⏰</span>
+      <div>
+        <p>TIEMPO</p>
+        <span id="txtTiempo">10</span>
+      </div>
+    </div>
+
   </div>
- 
+
+  <!-- ZONA DE JUEGO -->
+  <div class="zona-juego">
+
+    <!-- CONTROLES -->
+    <div class="controles">
+      <button id="btnArriba">⬆</button>
+      <button id="btnIzquierda">⬅</button>
+      <button id="btnDerecha">➡</button>
+      <button id="btnAbajo">⬇</button>
+    </div>
+
+    <!-- CANVAS -->
+    <canvas id="areaJuego" width="500" height="500"></canvas>
+
+  </div>
+
+  <!-- BOTÓN -->
+  <button class="reiniciar" onclick="reiniciar()">Reiniciar</button>
+
   <p id="mensaje"></p>
+
   <script src="cazando.js"></script>
+
 </body>
- 
+
 </html>

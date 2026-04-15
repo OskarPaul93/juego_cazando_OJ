@@ -1,0 +1,4 @@
+//Prompt 1: Genial ahora quiero que me ayudes colocando un fondo
+puede ser del gato Yummi y un queso
+
+//Prompt 2: casi, quiero que el fondo detras del canvas sea la imagen cambiada

@@ -1,15 +1,13 @@
-//prompt 1: Hola soy estudiante principiante de primer nivel en desarrollo de software web, 
-necesito que me ayudes en el cual actúes como tutor en programación web. 
-Ahora estoy desarrollando un taller sobre un juego básico en el cual un elemento (gato) 
-debe tocar a otro elemento (comida) en otras palabras gato caza comida, necesito mejorar mi diseño css del proyecto.
+//prompt 1: Hola soy estudiante principiante de primer nivel en desarrollo de software web, necesito que me ayudes en el cual actúes como tutor en programación web. Ahora estoy desarrollando un taller sobre un juego básico en el cual un elemento (gato) debe tocar a otro elemento (comida) en otras palabras gato caza comida, necesito mejorar mi diseño css del proyecto.
 
 //promot 2: Ya tengo los codigos, voy adjuntar mis códigos HTML y css, para que lo revises y juntos lo vayamos mejorando. 
 
-//promopt 3: vamos a modificar el css y quiero que el juego sea atractivo para niños y jovenes, se usen botones de colores, 
-colores llamativos y sombreados, también quiero cambiar el del la letra, sus colores y diseños
+//promopt 3: vamos a modificar el css y quiero que el juego sea atractivo para niños y jovenes, se usen botones de colores, colores llamativos y sombreados, además cambiar el cuadrado gato por una imagen del gato Yummi de Lengua of legends y la comida sea un queso, también quiero cambiar el del la letra, sus colores y diseños
 
 //prompt 4: genial pero quiero botones 3d y adjutar un trofeo en el puntaje y un reloj en el tiempo
 
-//promot 5: casi, haz esta modificacion, los botones de izquierda, derecha, arriba y abajo hazlos mas pequeños, 
-lo boton de reiniciar dejalo con el nombre reiniciar, el fondo pon un color azul obscuro, ademas que el color de fondo combine con los otros colores
+//promot 5: casi, haz esta modificacion, los botones de izquierda, derecha, arriba y abajo hazlos mas pequeños, lo boton de reiniciar dejalo con el nombre reiniciar, el fondo pon un color azul obscuro, ademas que el color de fondo combine con los otros colores
 
+//prompt 6: puedes hacer que los botones aparezcan al lado izquierdo
+
+//prompt 7: quiero que el recuadro que contiene al gato y la comida quede centrado

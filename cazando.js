@@ -15,7 +15,7 @@ const ANCHOCOMIDA = 30;
 const ALTURACOMIDA = 30;
 
 let puntaje= 0;
-let tiempo=10;
+let tiempo=60;
 let intervaloTiempo;
  
 function graficarRectangulo(x, y, ancho, alto, color) {
@@ -168,7 +168,7 @@ function restarTiempo() {
 function reiniciar() {
     clearInterval(intervaloTiempo);
     puntaje = 0;
-    tiempo = 10;
+    tiempo = 60;
 
     mostrarEnSpan("txtPuntaje", puntaje);
     mostrarEnSpan("txtTiempo", tiempo);

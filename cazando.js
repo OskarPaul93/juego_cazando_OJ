@@ -15,7 +15,7 @@ const ANCHOCOMIDA = 30;
 const ALTURACOMIDA = 30;
 
 let puntaje= 0;
-let tiempo=60;
+let tiempo=15;
 let intervaloTiempo;
  
 function graficarRectangulo(x, y, ancho, alto, color) {
@@ -128,7 +128,12 @@ function detectarColision() {
         // sumar punto
         puntaje++;
 
+        //sumar tiempo
+        tiempo += 10;
+        mostrarEnSpan("txtTiempo", tiempo);
+
         // actualizar en pantalla
+        
         mostrarEnSpan("txtPuntaje", puntaje);
 
         // mover comida a lugar aleatorio
@@ -168,7 +173,7 @@ function restarTiempo() {
 function reiniciar() {
     clearInterval(intervaloTiempo);
     puntaje = 0;
-    tiempo = 60;
+    tiempo = 15;
 
     mostrarEnSpan("txtPuntaje", puntaje);
     mostrarEnSpan("txtTiempo", tiempo);

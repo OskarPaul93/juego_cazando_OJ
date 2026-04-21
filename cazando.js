@@ -129,7 +129,7 @@ function detectarColision() {
         puntaje++;
 
         //sumar tiempo
-        tiempo = 15;
+        tiempo -= 1;
         mostrarEnSpan("txtTiempo", tiempo);
 
         // actualizar en pantalla
